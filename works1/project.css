@@ -1,0 +1,133 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding:0;
+    color: blueviolet;
+    background-color: orange;
+}
+
+header {
+ 
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+a {
+    color: mediumaquamarine;
+    text-decoration: none;
+}
+
+a:hover {
+    color: purple
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+p{
+    padding: 0 20px;;
+}
+ul.images{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+ul.images li {
+    margin: 10px;
+}
+
+ul.images img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+/* Responsive settings */
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: wheat;
+    }
+
+    header {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+    ul.images {
+        justify-content: space-around;
+    }
+    ul.images li {
+        width: 45%;
+    
+
+
+} }
+
+/* Orta boy ekranlar için stil (tablet) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    body {
+        background-color: wheat;
+    }
+
+    header {
+        padding: 18px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+    ul.images {
+        justify-content: space-between;
+    }
+
+    ul.images li {
+        width: 48%;
+    }
+}
+
+/* Büyük ekranlar için stil (masaüstü) */
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: orange;
+    }
+
+    header {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+    ul.images {
+        justify-content: space-around;
+    }
+
+    ul.images li {
+        width: 30%;
+    }
+}

@@ -1,0 +1,257 @@
+
+
+
+a.about {
+background: blueviolet;
+color: pink;
+
+}
+.main > ul:nth-child(1) > li:nth-child(2) > a:nth-child(1) {
+    background-color: blueviolet;
+    color:pink;
+  }
+  
+  .main > ul:nth-child(1) > li:nth-child(3) > a:nth-child(1) {
+    background-color: blueviolet;
+    color:pink
+    }
+    .main > ul:nth-child(1) > li:nth-child(4) > a:nth-child(1) {
+        background-color:blueviolet;
+        color: pink;
+        }
+
+
+.welcome > h2:nth-child(1) > span:nth-child(2) {
+    background-color:wheat;
+  }
+  
+ 
+  
+  .welcome > h2:nth-child(1) {
+    background-color: wheat;
+  }
+  body {
+    background-color: wheat;
+    }
+
+
+    body,ul,li,h1,h2,a{
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+header{
+    background-color: violet
+    padding color(srgb rgb(255, 0, 247) purple rgb(149, 255, 0));
+    padding: 0 40px;
+    text-align: center;
+    position:fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+
+}
+header h1{
+    color: orange;
+    border: 8px solid wheat;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 36px;
+}
+    .banner{
+        position: relative;
+
+    }
+    .banner img{
+        max-width: 100%;
+    }
+    .banner .welcome{
+        background-color: orange;
+        color: blue;
+        padding: 30px;
+        position: absolute;
+        left: o;
+        top: 30%;
+
+    }
+    .banner h2{
+        font-size: 74px;
+
+    }
+.banner h2 span{
+        font-size: 1.3em;
+        
+    }
+    nav{
+        background-color: orange;
+        padding: 20px;
+        position: sticky;
+        top: 140px;
+    }
+
+    nav ul {
+white-space: nowrap;
+max-width: 1200px;
+margin: 0 auto;
+    }
+    nav li{
+        width: 25%;
+        display: inline-block;
+        font-size: 24px;
+    }
+    nav li a {
+        text-align: center;
+        text-decoration: none;
+        color: blueviolet;
+    }
+nav li a.join{
+    color: blueviolet;
+}
+main{
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40 px;
+    box-sizing: border-box;
+}
+article h2{
+    color: blueviolet;
+    font-size: 36px;
+    text-align: center;
+
+}
+article p{
+    text-align: center;
+    line-height: 2em;
+    color: blueviolet;
+}
+.images{
+    text-align: center;
+    margin: 80px 0;
+    white-space: nowrap;
+    
+}
+.images li {
+    display: inline-block;
+    width: 40%;
+    margin: 20px 5px;
+}
+.images li img{
+    max-width: 100%;
+}
+section.join{
+    background: blueviolet;
+    text-align: center;
+    padding: 60px 20px;
+    color: pink;
+
+}
+.join h2{
+    font-size: 36px;
+}
+form input{
+    margin: 20px 0;
+    padding: 10 px 20 px;
+    font-size: 24px;
+    border-radius: 28px;
+    border: 4px solid blueviolet;
+
+}
+footer{
+    background:fuchsia;
+    color: blue;
+    padding: 10px;
+    text-align: center;
+    
+}
+/*pseudo classes */
+nav li a:hover{
+    text-decoration: underline;
+} 
+.images li:hover{
+    position: relative;
+    top: -4px;
+}
+form input:focus{
+    border: 4px dashed #4b4b4b;
+    outline: none;
+
+}
+form input:valid{
+    border: 4px solid orange;
+}
+
+
+
+/*article p::first-line{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+section.join p::first-letter{
+    font-size: 1.5em;
+}*/
+section.join p::selection{
+    background-color:rgb(35, 225, 32);
+    color: white;
+}
+p::after{
+    content: '...';
+}
+
+
+/*responsive styles*/
+@media screen and (max-width:1400px){
+    .banner .welcome h2{
+    font-size: 60px;}
+    }
+    nav li{
+        font-size: 18px;
+    }
+    .responsive-image {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        margin-top: 10px;
+}
+@media screen and (max-width:960px){
+    .banner .welcome h2{
+    font-size: 40px;
+    }
+   
+    }
+    @media screen and (max-width:700px){
+        .banner .welcome {
+       position: relative;
+       text-align: center;
+       padding: 10px;
+        }
+        .banner .welcome br{
+           display: none;
+        }
+        .banner .welcome br{
+           font-size: 25px;
+         }
+         .banner .welcome span{
+            font-size: 1em;
+          }
+         
+          }
+          @media screen and (max-width:560px){
+            nav li{
+                font-size: 20px;
+                display: block;
+                width: 100%;
+                margin: 12PX 0;
+            }
+            header{
+                position: relative;
+            }
+
+            nav {
+                top:0;
+            }
+            } 
+    
+   
+           

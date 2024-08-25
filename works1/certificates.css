@@ -1,0 +1,161 @@
+c
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: blueviolet;
+    color: #7f5ae7;
+    line-height: 1.6;
+    margin: 0;
+    box-sizing: border-box;
+  
+        
+}
+
+p
+ {
+    color: darkcyan;
+text-align:center;}
+ 
+    h3,h2{
+text-align: center;
+color:#7f5ae7;
+
+    }
+
+
+a {
+    color: aquamarine;
+    text-decoration: none;
+}
+
+a:hover {
+    color: purple;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea, form button {
+    margin-bottom: 10px;
+    padding: 10px;
+  
+}
+
+.Certificates{
+    box-sizing:border-box;
+    border:2px solid violet;
+    padding:0%;
+    margin:0; }
+    ul.images {
+        justify-content: space-around;
+    }
+    ul.images li {
+        width: 45%;
+    }
+
+    .responsive-image {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        margin-top: 10px;
+
+
+/* Responsive Ayarları */
+
+/* Küçük ekranlar (telefonlar) */
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: wheat;
+    }
+
+    header {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+ 
+    }
+
+    p {
+        font-size: 14px;
+    }
+    ul.images {
+        justify-content: space-between;
+    }
+
+    ul.images li {
+        width: 48%;
+    }
+    .responsive-image {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        margin-top: 10px;
+        
+}
+
+/* Orta boy ekranlar (tabletler) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    body {
+        background-color: lightblue;
+    }
+
+    header {
+        padding: 18px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+    ul.images {
+        justify-content: space-between;
+    }
+
+    ul.images li {
+        width: 48%;
+    }
+}
+}
+
+/* Büyük ekranlar (masaüstü) */
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: rgba(183, 174, 230, 0.512);
+    }
+
+    header {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    
+
+    p {
+        font-size: 18px;
+    }
+}
+ul.images {
+    justify-content: space-around;
+    position: relative;
+}
+
+ul.images li {
+    width: 30%;
+    position: relative;
+}
+
+

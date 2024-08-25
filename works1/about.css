@@ -1,0 +1,88 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: fuchsia;
+    background-color: wheat;
+}
+
+header {
+ 
+
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+a {
+    color: aquamarine;
+    text-decoration: none;
+}
+
+a:hover {
+    color: purple;
+}
+
+/* Responsive settings */
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightgray;
+    }
+
+    header {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+
+/* Orta boy ekranlar için stil (tablet) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    body {
+        background-color: lightblue;
+    }
+
+    header {
+        padding: 18px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+/* Büyük ekranlar için stil (masaüstü) */
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: wheat;
+    }
+
+    header {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
